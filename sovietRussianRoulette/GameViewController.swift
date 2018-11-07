@@ -43,8 +43,51 @@ class GameViewController: UIViewController {
             return .all
         }
     }
-
+    
+    @IBAction func btnToShop(_ sender: Any) {
+        
+    }
+    
     override var prefersStatusBarHidden: Bool {
         return true
+    }
+    
+    var revolverSize = 6
+    var roundCount = 1
+    let death = ""
+    let success = ""
+    var deathOrNaw = ""
+    
+    
+    
+    @IBAction func plusRound(_ sender: Any) {
+        if roundCount >= revolverSize {
+            roundCount = revolverSize
+        } else {
+        }
+        roundCount += 1
+        rounds.text = String(roundCount)
+    }
+    
+    @IBAction func minusRound(_ sender: Any) {
+        if roundCount <= 1 {
+            roundCount = 1
+        } else {
+        }
+        roundCount = roundCount - 1
+        rounds.text = String(roundCount)
+    }
+    
+    
+    @IBOutlet weak var rounds: UILabel!
+    
+
+    @IBAction func shoot(_ sender: Any) {
+        let randoNumber = Int.random(in: 1 ... revolverSize)
+        if roundCount >= randoNumber {
+            deathOrNaw = death
+        } else {
+            deathOrNaw = success
+        }
     }
 }
