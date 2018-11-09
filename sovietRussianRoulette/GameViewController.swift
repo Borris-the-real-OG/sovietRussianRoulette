@@ -61,20 +61,17 @@ class GameViewController: UIViewController {
     
     
     @IBAction func plusRound(_ sender: Any) {
-        if roundCount >= revolverSize {
-            roundCount = revolverSize
+        if roundCount == revolverSize {
         } else {
-        }
-        roundCount += 1
+            roundCount += 1 }
         rounds.text = String(roundCount)
     }
     
     @IBAction func minusRound(_ sender: Any) {
-        if roundCount <= 1 {
-            roundCount = 1
+        if roundCount == 1 {
         } else {
+            roundCount = roundCount - 1
         }
-        roundCount = roundCount - 1
         rounds.text = String(roundCount)
     }
     
