@@ -58,6 +58,15 @@ class GameViewController: UIViewController {
     let success = ""
     var deathOrNaw = ""
     
+    // Shop
+    var invulnerabilyHelm = false
+    var luckyPotion = false
+    
+    // Guns
+    var magnum = false
+    var sniper = false
+    var hmg = false
+    
     
     
     @IBAction func plusRound(_ sender: Any) {

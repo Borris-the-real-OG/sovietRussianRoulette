@@ -16,6 +16,8 @@
 		5EBA21D32175269B00427686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBA21D12175269B00427686 /* LaunchScreen.storyboard */; };
 		5EBA21DE2175269B00427686 /* sovietRussianRouletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA21DD2175269B00427686 /* sovietRussianRouletteTests.swift */; };
 		5EBA21E92175269B00427686 /* sovietRussianRouletteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA21E82175269B00427686 /* sovietRussianRouletteUITests.swift */; };
+		5EC921BF219F75C600AFF729 /* pixeled1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EC921BE219F75C600AFF729 /* pixeled1.ttf */; };
+		5EC921C1219F75D300AFF729 /* pixelfont2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EC921C0219F75D300AFF729 /* pixelfont2.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5EBA21E42175269B00427686 /* sovietRussianRouletteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sovietRussianRouletteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EBA21E82175269B00427686 /* sovietRussianRouletteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sovietRussianRouletteUITests.swift; sourceTree = "<group>"; };
 		5EBA21EA2175269B00427686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC921BE219F75C600AFF729 /* pixeled1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = pixeled1.ttf; path = ../../../../../Downloads/pixeled1.ttf; sourceTree = "<group>"; };
+		5EC921C0219F75D300AFF729 /* pixelfont2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = pixelfont2.ttf; path = ../../../../../Downloads/pixelfont2.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 				5EBA21CF2175269B00427686 /* Assets.xcassets */,
 				5EBA21D12175269B00427686 /* LaunchScreen.storyboard */,
 				5EBA21D42175269B00427686 /* Info.plist */,
+				5EC921BD219F75A600AFF729 /* fonts */,
 			);
 			path = sovietRussianRoulette;
 			sourceTree = "<group>";
@@ -129,6 +134,15 @@
 				5EBA21EA2175269B00427686 /* Info.plist */,
 			);
 			path = sovietRussianRouletteUITests;
+			sourceTree = "<group>";
+		};
+		5EC921BD219F75A600AFF729 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5EC921C0219F75D300AFF729 /* pixelfont2.ttf */,
+				5EC921BE219F75C600AFF729 /* pixeled1.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EBA21CE2175269800427686 /* Main.storyboard in Resources */,
+				5EC921C1219F75D300AFF729 /* pixelfont2.ttf in Resources */,
 				5E4A44442189FCFF003C5319 /* GameScene.sks in Resources */,
+				5EC921BF219F75C600AFF729 /* pixeled1.ttf in Resources */,
 				5EBA21D02175269B00427686 /* Assets.xcassets in Resources */,
 				5EBA21D32175269B00427686 /* LaunchScreen.storyboard in Resources */,
 				5EBA21C72175269800427686 /* Actions.sks in Resources */,
