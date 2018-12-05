@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E4A44442189FCFF003C5319 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5E4A44432189FCFF003C5319 /* GameScene.sks */; };
 		5EBA21C32175269800427686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA21C22175269800427686 /* AppDelegate.swift */; };
 		5EBA21C72175269800427686 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5EBA21C62175269800427686 /* Actions.sks */; };
 		5EBA21CB2175269800427686 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA21CA2175269800427686 /* GameViewController.swift */; };
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5E4A44432189FCFF003C5319 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../../../../.Trash/GameScene.sks; sourceTree = "<group>"; };
 		5EBA21BF2175269800427686 /* sovietRussianRoulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sovietRussianRoulette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EBA21C22175269800427686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EBA21C62175269800427686 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 			children = (
 				5EBA21C22175269800427686 /* AppDelegate.swift */,
 				5EBA21C62175269800427686 /* Actions.sks */,
-				5E4A44432189FCFF003C5319 /* GameScene.sks */,
 				5EBA21CA2175269800427686 /* GameViewController.swift */,
 				5EBA21CC2175269800427686 /* Main.storyboard */,
 				5EBA21CF2175269B00427686 /* Assets.xcassets */,
@@ -236,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EBA21CE2175269800427686 /* Main.storyboard in Resources */,
-				5E4A44442189FCFF003C5319 /* GameScene.sks in Resources */,
 				5EBA21D02175269B00427686 /* Assets.xcassets in Resources */,
 				5EBA21D32175269B00427686 /* LaunchScreen.storyboard in Resources */,
 				5EBA21C72175269800427686 /* Actions.sks in Resources */,
