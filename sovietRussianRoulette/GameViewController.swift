@@ -95,6 +95,7 @@ class GameViewController: UIViewController {
             performSegue(withIdentifier: "toDeath", sender: nil)
         } else {
             
+            
         }
         
     }
