@@ -44,8 +44,9 @@
                                     <action selector="minusRound:" destination="BV1-FR-VrT" eventType="touchUpInside" id="r1T-h4-ShG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7I-Vw-d2a">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7I-Vw-d2a">
                                 <rect key="frame" x="103" y="347" width="168" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="43"/>
                                 <state key="normal" title="SHOOT!">
                                     <color key="titleColor" red="1" green="0.14164669735118529" blue="0.09444996165102304" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -75,8 +76,9 @@
                                     <segue destination="Zmr-An-xrG" kind="show" id="HgC-W8-v1J"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="SOVIET RUSSIAN ROULETTE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="983-mW-Bck">
-                                <rect key="frame" x="0.0" y="20" width="375" height="73"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SOVIET RUSSIAN ROULETTE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="983-mW-Bck">
+                                <rect key="frame" x="5" y="20" width="365" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Pixeled" family="Pixeled" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -86,13 +88,11 @@
                         <accessibility key="accessibilityConfiguration">
                             <accessibilityTraits key="traits" button="YES" staticText="YES"/>
                         </accessibility>
-                        <constraints>
-                            <constraint firstItem="983-mW-Bck" firstAttribute="leading" secondItem="A7I-Vw-d2a" secondAttribute="trailing" constant="-271" id="ck2-qU-1YT"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
                     </view>
                     <connections>
                         <outlet property="rounds" destination="ZIC-KB-9Li" id="bir-tT-hYS"/>
+                        <segue destination="h4I-5b-KK6" kind="show" identifier="toDeath" id="GlJ-fk-yhH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>

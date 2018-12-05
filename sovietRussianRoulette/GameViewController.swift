@@ -52,7 +52,7 @@ class GameViewController: UIViewController {
         return true
     }
     
-    var revolverSize = 6
+    var gunSize = 6
     var roundCount = 1
     let death = ""
     let success = ""
@@ -71,7 +71,7 @@ class GameViewController: UIViewController {
     
     
     @IBAction func plusRound(_ sender: Any) {
-        if roundCount == revolverSize {
+        if roundCount == gunSize {
         } else {
             roundCount += 1 }
         rounds.text = String(roundCount)
@@ -90,11 +90,12 @@ class GameViewController: UIViewController {
     
 
     @IBAction func shoot(_ sender: Any) {
-        let randoNumber = Int.random(in: 1 ... revolverSize)
-        if roundCount >= randoNumber {
-            
+        let randoNumber = Int.random(in: 1 ... gunSize)
+        if randoNumber >= gunSize {
+            performSegue(withIdentifier: "toDeath", sender: nil)
         } else {
-            deathOrNaw = "success"
+            
         }
+        
     }
 }
