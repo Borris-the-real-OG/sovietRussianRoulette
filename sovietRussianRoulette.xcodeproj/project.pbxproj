@@ -54,7 +54,7 @@
 		5EBA21E82175269B00427686 /* sovietRussianRouletteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sovietRussianRouletteUITests.swift; sourceTree = "<group>"; };
 		5EBA21EA2175269B00427686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EC921BE219F75C600AFF729 /* pixeled1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = pixeled1.ttf; path = ../../../../../Downloads/pixeled1.ttf; sourceTree = "<group>"; };
-		5EC921C0219F75D300AFF729 /* pixelfont2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = pixelfont2.ttf; path = ../../../../../Downloads/pixelfont2.ttf; sourceTree = "<group>"; };
+		5EC921C0219F75D300AFF729 /* pixelfont2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = pixelfont2.ttf; path = ../../../../../../../../../Users/george/Downloads/pixelfont2.ttf; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -63,6 +63,7 @@ class GameViewController: UIViewController {
     var luckyPotion = false
     
     // Guns
+    var sISR = true
     var magnum = false
     var sniper = false
     var hmg = false
@@ -91,9 +92,9 @@ class GameViewController: UIViewController {
     @IBAction func shoot(_ sender: Any) {
         let randoNumber = Int.random(in: 1 ... revolverSize)
         if roundCount >= randoNumber {
-            deathOrNaw = death
+            
         } else {
-            deathOrNaw = success
+            deathOrNaw = "success"
         }
     }
 }
